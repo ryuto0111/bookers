@@ -58,6 +58,10 @@ a {
   color: #000;
 }
 
+.field, .action {
+  margin-bottom: 10px;
+}
+
 input {
   padding: 1px 2px;
 }

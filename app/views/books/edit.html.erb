@@ -1,11 +1,11 @@
 <h1>Editing Book</h1>
 <%= form_with model: @book do |f| %>
 
-<div class="form_title">
+<div class="field">
   <%= f.label :Title %>
   <%= f.text_field :title %>
 </div>
-<div class="form_body">
+<div class="field">
   <%= f.label :body %>
   <%= f.text_area :body%>
 </div>
